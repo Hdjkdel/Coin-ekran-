@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Seçme Ekranı</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>SELECT A BLOCKCHAIN</h1>
+        <div class="coin-grid">
+            <div class="coin" onclick="goToLink('https://hdjkdel.github.io/Btc/')">
+                <img src="btc.png" alt="BTC">
+                <span>BTC</span>
+            </div>
+            <div class="coin" onclick="goToLink('https://hdjkdel.github.io/Eth/')">
+                <img src="eth.png" alt="ETH">
+                <span>ETH</span>
+            </div>
+            <div class="coin" onclick="goToLink('https://hdjkdel.github.io/Trx/')">
+                <img src="trx.png" alt="TRX">
+                <span>TRX</span>
+            </div>
+            <div class="coin" onclick="goToLink('https://hdjkdel.github.io/Sol/')">
+                <img src="sol.png" alt="SOL">
+                <span>SOL</span>
+            </div>
+            <div class="coin" onclick="goToLink('https://hdjkdel.github.io/Doge/')">
+                <img src="doge.png" alt="DOGE">
+                <span>DOGE</span>
+            </div>
+            <div class="coin" onclick="goToLink('https://hdjkdel.github.io/Bnb/')">
+                <img src="bnb.png" alt="BNB">
+                <span>BNB</span>
+            </div>
+        </div>
+        <button class="start-button" onclick="goToLink('https://hdjkdel.github.io/Multi-/')">Start</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
